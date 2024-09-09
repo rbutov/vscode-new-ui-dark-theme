@@ -1,0 +1,58 @@
+{
+  "name": "new-ui-dark-theme",
+  "displayName": "New UI Dark Theme",
+  "version": "1.0.3",
+  "publisher": "butov-dev",
+  "license": "MIT",
+  "description": "The New UI Dark Theme for VS Code features a sleek dark mode with a modern, minimalistic design inspired by JetBrains New UI.",
+  "scripts": {
+    "lint": "prettier src --write",
+    "vsce-package": "vsce package -o ./bin/theme.vsix",
+    "vsce-publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#2b2d30",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "jetbrains",
+    "intellij",
+    "pycharm",
+    "webstorm",
+    "phpstorm",
+    "goland",
+    "new dark",
+    "the new ui",
+    "jetbrains new ui",
+    "dark theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "New UI Dark",
+        "uiTheme": "vs-dark",
+        "path": "./src/theme.json"
+      }
+    ]
+  },
+  "icon": "./images/icon.png",
+  "bugs": {
+    "url": "https://github.com/rbutov/vscode-new-ui-dark-theme/issues",
+    "email": "support@butov.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbutov/vscode-new-ui-dark-theme.git"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.32.0",
+    "prettier": "^3.3.3"
+  }
+}
