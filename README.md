@@ -6,7 +6,7 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 
 ## Screenshots
 
-![New UI Dark Theme](https://raw.githubusercontent.com/rbutov/vscode-new-ui-dark-theme/main/images/preview.png)
+![New UI Dark Theme](https://raw.githubusercontent.com/rbutov/vscode-new-ui-dark-theme/master/images/preview.png)
 
 ## Features
 
