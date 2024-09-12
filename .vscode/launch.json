@@ -10,7 +10,6 @@
       "type": "extensionHost",
       "request": "launch",
       "runtimeExecutable": "${execPath}",
-      "preLaunchTask": "npm: build",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}",
         "--disable-extensions",
@@ -22,7 +21,6 @@
       "type": "extensionHost",
       "request": "launch",
       "runtimeExecutable": "${execPath}",
-      "preLaunchTask": "npm: build",
       "args": ["--extensionDevelopmentPath=${workspaceFolder}", "${file}"]
     }
   ]
