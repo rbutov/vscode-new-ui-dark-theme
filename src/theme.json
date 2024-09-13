@@ -12,7 +12,7 @@
     "menu.separatorBackground": "#42454a",
     "menu.border": "#42454a",
 
-    "commandCenter.activeForeground": "#dfe1e5",
+    "commandCenter.activeForeground": "#dfe1e513",
     "commandCenter.activeBackground": "#42454a",
     "commandCenter.activeBorder": "#4f5156",
 
@@ -284,11 +284,11 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "variable.local": { "foreground": "#a9b7c5" },
     "variable.defaultLibrary": {
       "foreground": "#c77dbb",
       "fontStyle": "italic"
     },
+    "variable.local": { "foreground": "#a9b7c5", "fontStyle": "" },
     "parameter": {
       "foreground": "#bcbec3"
     },
@@ -301,20 +301,21 @@
     "interface": {
       "foreground": "#bcbec3"
     },
-    "interface.defaultLibrary": {
-      "fontStyle": "italic"
-    },
     "class": {
       "foreground": "#bcbec3"
     },
     "class.defaultLibrary": {
-      "foreground": "#56A8F5"
+      "foreground": "#C77DBA",
+      "fontStyle": "italic"
     },
     "property": {
       "foreground": "#C77DBB"
     },
     "enum": {
-      "foreground": "#A9B7C6"
+      "foreground": "#BCBEC4"
+    },
+    "enumMember": {
+      "fontStyle": "italic"
     }
   },
   "tokenColors": [
@@ -341,6 +342,13 @@
       ],
       "settings": {
         "foreground": "#67A37C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["meta.var-single-variable.expr"],
+      "settings": {
+        "foreground": "#c77dbb",
         "fontStyle": "italic"
       }
     },
@@ -408,13 +416,6 @@
       }
     },
     {
-      "scope": ["markup.heading"],
-      "settings": {
-        "foreground": "#c77dbb",
-        "fontStyle": "italic"
-      }
-    },
-    {
       "scope": ["keyword.control.at-rule.mixin.scss"],
       "settings": {
         "foreground": "#d0cfff"
@@ -466,16 +467,6 @@
     },
     {
       "scope": [
-        "entity.name.type.parameter",
-        "meta.type.parameters entity.name.type",
-        "meta.type.infer entity.name.type"
-      ],
-      "settings": {
-        "foreground": "#507874"
-      }
-    },
-    {
-      "scope": [
         "meta.embedded",
         "meta.tag.attributes",
         "meta.at-rule.for keyword.control.operator",
@@ -500,7 +491,8 @@
         "punctuation.definition.attribute-selector",
         "punctuation.terminator",
         "storage.type.function.arrow",
-        "meta.brace.square"
+        "meta.brace.square",
+        "punctuation.definition.typeparameters"
       ],
       "settings": {
         "foreground": "#BCBEC4"
@@ -661,11 +653,20 @@
       }
     },
     {
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#c77dbb",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "invalid.deprecated",
       "settings": {
         "foreground": "#bb9af7"
       }
     },
+
+    //_php
     {
       "scope": [
         "punctuation.section.embedded.begin.php",
@@ -693,6 +694,94 @@
       "settings": {
         "foreground": "#9876AA",
         "fontStyle": "italic"
+      }
+    },
+
+    //_go
+    {
+      "scope": ["entity.name.function.support.go"],
+      "settings": {
+        "foreground": "#B09D79"
+      }
+    },
+    {
+      "scope": ["entity.name.type.go"],
+      "settings": {
+        "foreground": "#AFBF7E"
+      }
+    },
+    {
+      "scope": ["variable.other.property.go"],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "scope": ["punctuation.other.comma.go"],
+      "settings": {
+        "foreground": "#BCBEC4"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.error.go",
+        "constant.language.null.go",
+        "entity.name.function.support.builtin.go",
+        "storage.type.string.go",
+        "storage.type.boolean.go",
+        "constant.language.boolean.go"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+
+    // _ruby
+    {
+      "scope": ["constant.other.symbol.ruby"],
+      "settings": {
+        "foreground": "#89A6AF"
+      }
+    },
+    {
+      "scope": ["entity.name.type.class.ruby", "variable.other.constant.ruby"],
+      "settings": {
+        "foreground": "#FFC66D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.float.ruby",
+        "constant.numeric.integer.ruby",
+        "constant.other.symbol.hashkey.ruby"
+      ],
+      "settings": {
+        "foreground": "#74A4C8"
+      }
+    },
+    {
+      "scope": ["support.class.ruby", "entity.other.inherited-class.ruby"],
+      "settings": {
+        "foreground": "#FEFFF9"
+      }
+    },
+    {
+      "scope": ["keyword.other.special-method.ruby"],
+      "settings": {
+        "foreground": "#FC9800"
+      }
+    },
+    {
+      "scope": ["variable.other.readwrite.instance.ruby"],
+      "settings": {
+        "foreground": "#C77DBB"
+      }
+    },
+    {
+      "scope": ["entity.name.function.ruby", "variable.other.block.ruby"],
+      "settings": {
+        "foreground": "#FFC66D"
       }
     }
   ]
