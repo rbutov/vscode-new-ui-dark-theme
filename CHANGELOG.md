@@ -2,6 +2,10 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
+## 1.0.8 (2024-09-13)
+
+- Fix constant color
+
 ## 1.0.6 (2024-09-11)
 
 - Update some colors
