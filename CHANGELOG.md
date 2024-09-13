@@ -5,6 +5,9 @@ All notable changes to the "new-ui-dark-theme" extension will be documented in t
 ## 1.0.6 (2024-09-11)
 
 - Update some colors
+- Add PHP support
+- Add GO support
+- Add Ruby support
 
 ## 1.0.0 (2024-09-06)
 

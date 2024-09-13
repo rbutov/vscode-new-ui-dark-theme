@@ -296,17 +296,17 @@
       "foreground": "#507874"
     },
     "type": {
-      "foreground": "#bcbec3"
+      "foreground": "#bcbec3",
+      "fontStyle": ""
     },
     "interface": {
       "foreground": "#bcbec3"
     },
     "class": {
-      "foreground": "#bcbec3"
+      "foreground": "#BCBEC4"
     },
     "class.defaultLibrary": {
-      "foreground": "#C77DBA",
-      "fontStyle": "italic"
+      "foreground": "#56A8F5"
     },
     "property": {
       "foreground": "#C77DBB"
