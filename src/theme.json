@@ -288,6 +288,10 @@
       "foreground": "#c77dbb",
       "fontStyle": "italic"
     },
+    "variable.readonly": {
+      "foreground": "#c77dbb",
+      "fontStyle": "italic"
+    },
     "variable.local": { "foreground": "#a9b7c5", "fontStyle": "" },
     "parameter": {
       "foreground": "#bcbec3"
@@ -342,13 +346,6 @@
       ],
       "settings": {
         "foreground": "#67A37C",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": ["meta.var-single-variable.expr"],
-      "settings": {
-        "foreground": "#c77dbb",
         "fontStyle": "italic"
       }
     },
