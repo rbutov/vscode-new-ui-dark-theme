@@ -2,6 +2,10 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
+## 1.2.0 (2024-12-22)
+
+- Add graphQL support
+
 ## 1.1.0 (2024-09-24)
 
 - Update project logo
