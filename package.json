@@ -1,7 +1,7 @@
 {
   "name": "new-ui-dark-theme",
   "displayName": "New UI Dark Theme",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "publisher": "butov-dev",
   "license": "MIT",
   "description": "The New UI Dark Theme for VS Code features a sleek dark mode with a modern, minimalistic design inspired by JetBrains New UI.",
@@ -15,7 +15,7 @@
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.98.2"
+    "vscode": "1.96.2"
   },
   "maintainers": ["Ruslan Butov"],
   "categories": ["Themes", "Other"],

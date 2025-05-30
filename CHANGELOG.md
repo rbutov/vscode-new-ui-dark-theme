@@ -2,7 +2,11 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
-## 1.2.0 (2024-12-22)
+## 1.2.2 (2025-06-29)
+
+- Downgrade engine to support currect cursor
+
+## 1.2.1 (2024-12-22)
 
 - Update modified files color
 - Update core libs
