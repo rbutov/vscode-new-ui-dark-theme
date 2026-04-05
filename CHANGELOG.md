@@ -2,6 +2,10 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
+## 1.2.3 (2026-04-05)
+
+- Fix vulnerabilities
+
 ## 1.2.2 (2025-06-29)
 
 - Downgrade engine to support currect cursor
