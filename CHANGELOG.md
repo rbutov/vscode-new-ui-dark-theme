@@ -2,6 +2,12 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
+## 1.2.4 (2026-07-15)
+
+- Update engine to latest Cursor VS Code version (1.125.0)
+- Update dependencies
+- Fix vulnerabilities
+
 ## 1.2.3 (2026-04-05)
 
 - Fix vulnerabilities
