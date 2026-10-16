@@ -2,6 +2,10 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
+## 1.3.0 (2026-10-16)
+
+- Add `New UI Dark (Modern UI)` theme variant for `"workbench.experimental.modernUI": true` — hides the active tab bottom border and the editor group header border, matching built-in themes ([#30](https://github.com/rbutov/vscode-new-ui-dark-theme/issues/30))
+
 ## 1.2.4 (2026-07-15)
 
 - Update engine to latest Cursor VS Code version (1.125.0)

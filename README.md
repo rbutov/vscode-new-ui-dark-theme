@@ -23,6 +23,10 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 3. Click **Install** to install it.
 4. From Command Palette (**Ctrl+Shift+P**), select `Preferences: Color Theme` and select `New UI Dark Theme`.
 
+### Modern UI
+
+If you use VS Code's Modern UI (`"workbench.experimental.modernUI": true`), select **New UI Dark (Modern UI)** instead. It is the same theme without the active tab underline and the line under the editor tabs, which look out of place with the Modern UI's rounded tabs.
+
 ## Customization
 
 Want to make the theme your own? You can easily customize it:
