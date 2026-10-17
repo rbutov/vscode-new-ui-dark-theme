@@ -18,6 +18,8 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 
 ## Installation
 
+Requires VS Code 1.129.0 or later within the 1.x release series.
+
 1. Open **Extensions** in VSCode's sidebar. (or From Command Palette (**Ctrl+Shift+P**), `View: Show Extensions`)
 2. Search for `New UI Dark Theme`.
 3. Click **Install** to install it.
