@@ -39,11 +39,6 @@
         "label": "New UI Dark",
         "uiTheme": "vs-dark",
         "path": "./src/theme.json"
-      },
-      {
-        "label": "New UI Dark (Modern UI)",
-        "uiTheme": "vs-dark",
-        "path": "./src/theme-modern-ui.json"
       }
     ]
   },

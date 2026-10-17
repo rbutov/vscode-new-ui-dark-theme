@@ -21,11 +21,11 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 1. Open **Extensions** in VSCode's sidebar. (or From Command Palette (**Ctrl+Shift+P**), `View: Show Extensions`)
 2. Search for `New UI Dark Theme`.
 3. Click **Install** to install it.
-4. From Command Palette (**Ctrl+Shift+P**), select `Preferences: Color Theme` and select `New UI Dark Theme`.
+4. From Command Palette (**Ctrl+Shift+P**), select `Preferences: Color Theme` and select `New UI Dark`.
 
 ### Modern UI
 
-If you use VS Code's Modern UI (`"workbench.experimental.modernUI": true`), select **New UI Dark (Modern UI)** instead. It is the same theme without the active tab underline and the line under the editor tabs, which look out of place with the Modern UI's rounded tabs.
+**New UI Dark** supports both the classic layout and VS Code's Modern UI (`"workbench.experimental.modernUI": true`); no separate theme is needed. The active-tab marker uses the top border instead of the bottom border, preserving the blue focused and gray unfocused indicators in the classic layout while letting Modern UI style its rounded tabs. The separator below the editor group header (including breadcrumbs) is transparent in both layouts.
 
 ## Customization
 

@@ -2,9 +2,10 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
-## 1.3.0 (2026-10-16)
+## 1.3.0 (2026-10-17)
 
-- Add `New UI Dark (Modern UI)` theme variant for `"workbench.experimental.modernUI": true` — hides the active tab bottom border and the editor group header border, matching built-in themes ([#30](https://github.com/rbutov/vscode-new-ui-dark-theme/issues/30))
+- Support classic and Modern UI layouts with the existing `New UI Dark` theme: move the focused and unfocused active-tab markers from the bottom border to the top border ([#30](https://github.com/rbutov/vscode-new-ui-dark-theme/issues/30))
+- Make the separator below the editor group header (including breadcrumbs) transparent in both layouts
 
 ## 1.2.4 (2026-07-15)
 
