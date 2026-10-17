@@ -2,6 +2,11 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
+## 1.3.0 (2026-10-17)
+
+- Support classic and Modern UI layouts with the existing `New UI Dark` theme: move the focused and unfocused active-tab markers from the bottom border to the top border ([#30](https://github.com/rbutov/vscode-new-ui-dark-theme/issues/30))
+- Make the separator below the editor group header (including breadcrumbs) transparent in both layouts
+
 ## 1.2.4 (2026-07-15)
 
 - Update engine to latest Cursor VS Code version (1.125.0)
