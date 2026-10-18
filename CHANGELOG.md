@@ -2,7 +2,11 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
-## 1.3.1 (Unreleased)
+## 1.3.2 (2026-10-18)
+
+- Lower the VS Code Extension API requirement to `^1.77.0` to support a wider range of VS Code and Cursor releases
+
+## 1.3.1 (2026-10-18)
 
 - Replace the exact VS Code version requirement with `^1.125.0` so newer VS Code and Cursor releases can install the theme while preserving the existing minimum API version ([#33](https://github.com/rbutov/vscode-new-ui-dark-theme/issues/33))
 - Clarify that Modern UI is optional and Cursor compatibility depends on its VS Code Extension API version
