@@ -18,7 +18,7 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 
 ## Installation
 
-Supports VS Code 1.125.0 and later 1.x releases, including Cursor with a compatible VS Code Extension API version. In Cursor, check **VS Code Extension API** in **About Cursor**; the Cursor application version is separate.
+Supports VS Code 1.77.0 and later 1.x releases, including Cursor with a compatible VS Code Extension API version. In Cursor, check **VS Code Extension API** in **About Cursor**; the Cursor application version is separate.
 
 1. Open **Extensions** in VSCode's sidebar. (or From Command Palette (**Ctrl+Shift+P**), `View: Show Extensions`)
 2. Search for `New UI Dark Theme`.
