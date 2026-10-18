@@ -18,6 +18,8 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 
 ## Installation
 
+Supports VS Code 1.125.0 and later 1.x releases, including Cursor with a compatible VS Code Extension API version. In Cursor, check **VS Code Extension API** in **About Cursor**; the Cursor application version is separate.
+
 1. Open **Extensions** in VSCode's sidebar. (or From Command Palette (**Ctrl+Shift+P**), `View: Show Extensions`)
 2. Search for `New UI Dark Theme`.
 3. Click **Install** to install it.
@@ -26,6 +28,8 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 ### Modern UI
 
 **New UI Dark** supports both the classic layout and VS Code's Modern UI (`"workbench.experimental.modernUI": true`); no separate theme is needed. The active-tab marker uses the top border instead of the bottom border, preserving the blue focused and gray unfocused indicators in the classic layout while letting Modern UI style its rounded tabs. The separator below the editor group header (including breadcrumbs) is transparent in both layouts.
+
+Modern UI is optional and only available in editor builds that expose this setting. The classic layout works without it, including in Cursor.
 
 ## Customization
 
