@@ -2,6 +2,11 @@
 
 All notable changes to the "new-ui-dark-theme" extension will be documented in this file.
 
+## 1.3.1 (Unreleased)
+
+- Replace the exact VS Code version requirement with `^1.125.0` so newer VS Code and Cursor releases can install the theme while preserving the existing minimum API version ([#33](https://github.com/rbutov/vscode-new-ui-dark-theme/issues/33))
+- Clarify that Modern UI is optional and Cursor compatibility depends on its VS Code Extension API version
+
 ## 1.3.0 (2026-10-17)
 
 - Support classic and Modern UI layouts with the existing `New UI Dark` theme: move the focused and unfocused active-tab markers from the bottom border to the top border ([#30](https://github.com/rbutov/vscode-new-ui-dark-theme/issues/30))
