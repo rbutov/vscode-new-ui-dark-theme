@@ -20,6 +20,8 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 
 Supports VS Code 1.77.0 and later 1.x releases, including Cursor with a compatible VS Code Extension API version. In Cursor, check **VS Code Extension API** in **About Cursor**; the Cursor application version is separate.
 
+Download from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=butov-dev.new-ui-dark-theme) or [Open VSX for Cursor](https://open-vsx.org/extension/butov-dev/new-ui-dark-theme).
+
 1. Open **Extensions** in VSCode's sidebar. (or From Command Palette (**Ctrl+Shift+P**), `View: Show Extensions`)
 2. Search for `New UI Dark Theme`.
 3. Click **Install** to install it.
